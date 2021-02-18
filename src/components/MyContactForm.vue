@@ -2,7 +2,7 @@
     <form name="contact" netlify>
         <label>Name <input type="text" name="name" placeholder="Full name"/></label>
         <label>Email <input type="email" name="email" placeholder="Email"/></label>
-        <textarea name="comment" cols="30" rows="10"></textarea>
+        <textarea type="text" name="comment" cols="30" rows="10" placeholder="Leave a comment for us..."></textarea>
         <button type="submit">Send</button>
     </form>
 </template>
