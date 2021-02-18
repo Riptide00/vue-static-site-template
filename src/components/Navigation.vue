@@ -5,7 +5,7 @@
             <li><a href="/about">About</a></li>
             <li><a href="/contact">Contact</a></li>
         </ul>
-        <form action="">
+        <form name="login">
             <input type="text" placeholder="Email">
             <input type="text" placeholder="Password">
             <button>Login</button>
