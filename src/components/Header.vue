@@ -9,9 +9,6 @@
     </header>
 </template>
 
-<script>
-</script>
-
 <style scoped lang="scss">
     header {
         height: 150px;

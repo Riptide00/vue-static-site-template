@@ -4,10 +4,7 @@
     </footer>
 </template>
 
-<script>
-</script>
-
-<style scoped lang="scss">
+<style lang="scss" scoped>
     footer {
         background-color: var(--main-color);
         height: 150px;
