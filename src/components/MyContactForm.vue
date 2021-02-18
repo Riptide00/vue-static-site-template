@@ -1,10 +1,15 @@
 <template>
-    <form name="contact" netlify>
+    <form 
+        name="contact"
+        method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+    >
+        <input type="hidden" name="form-name" value="contact" />
         <label>Name <input type="text" name="name" placeholder="Full name"/></label>
         <label>Email <input type="email" name="email" placeholder="Email"/></label>
         <textarea type="text" name="comment" cols="30" rows="10" placeholder="Leave a comment for us..."></textarea>
         <button type="submit">Send</button>
-        <input type="hidden" name="contact" value="contact" />
     </form>
 </template>
 
