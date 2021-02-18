@@ -1,3 +1,6 @@
+
+[![Known Vulnerabilities](https://snyk.io/test/github/Riptide00/vue-static-site-template/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Riptide00/vue-static-site-template?targetFile=package.json)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1c567290-48cd-4c1d-b3ad-10bb39933461/deploy-status)](https://app.netlify.com/sites/zealous-nightingale-80fed5/deploys)
 # Vue static site template
 
 This is my shot at a static site template for Vue.js.
