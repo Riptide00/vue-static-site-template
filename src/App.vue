@@ -54,6 +54,12 @@
         overflow-y: scroll;
         height: calc(100vh - 435px);
     }
+
+    @media only screen and (max-width: 480px) {
+        main {
+            height: calc(100vh - 286px);
+        }
+    }
     
 	.padding {
 		width: 100%;
