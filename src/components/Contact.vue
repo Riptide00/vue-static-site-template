@@ -1,7 +1,8 @@
 <template>
-    <div>
+    <main id="main">
         <contactform/>
-    </div>
+        <div class="padding"></div>
+    </main>
 </template>
 
 <script>
@@ -15,12 +16,9 @@
 </script>
 
 <style lang="scss" scoped>
-    div {
-        width: 100%;
-        height: calc(100vh - 300px);
+    main {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
 </style>

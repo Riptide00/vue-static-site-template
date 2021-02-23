@@ -1,6 +1,30 @@
 <template>
-    <div>
+    <main id="main">
         <h1>About us</h1>
-        <p>I'm craaazy!</p>
-    </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorum eos sint deserunt rerum vero? Inventore, exercitationem explicabo maxime deleniti in natus magnam distinctio, consequuntur ab neque laboriosam. Voluptatem, dolores!</p>
+        <div class="padding"></div>
+    </main>
 </template>

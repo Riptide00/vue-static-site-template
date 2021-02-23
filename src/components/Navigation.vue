@@ -5,21 +5,59 @@
             <li><a href="/about">About</a></li>
             <li><a href="/contact">Contact</a></li>
         </ul>
-        <form name="login">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Password">
-            <button>Login</button>
-            <a href="/register">Register</a>
-        </form>
+        <div v-if="!loggedIn" class="login-container">
+            <a v-on:click="openModal('login')" href="#" class="button">Login</a>
+            <a v-on:click="openModal('signup')" href="#">Signup</a>
+        </div>
+        <div v-else class="login-container">
+            <a v-on:click="logout()" href="#" class="button">Logout</a>
+        </div>
     </nav>
 </template>
 
+<script>
+    const netlifyIdentity = require('netlify-identity-widget');
+
+    let startupState = 0;
+    netlifyIdentity.on('init', (user) => {
+        if (user) {
+            startupState = 1;
+        }
+    });
+
+    netlifyIdentity.init()
+    
+    export default {
+        data() {
+            return {
+                loggedIn: startupState,
+            };
+        },
+        methods: {
+            openModal: function (window) {
+                // catch options here and make it foolproof
+                if (window === 'login' || window =="signup") netlifyIdentity.open(window);
+                else netlifyIdentity.open();
+                // register eventhandler
+                netlifyIdentity.on('login', () => {
+                    this.loggedIn = 1;
+                });
+            },
+            logout: function () {
+                netlifyIdentity.logout().then(this.loggedIn = 0);
+            }
+        }
+    }
+</script>
+
 <style scoped lang="scss">
     nav {
-        min-width: 820px;
+        width: calc(100vw + 10px);
+        margin-left: -5px;
         height: 35px;
         padding: 5px;
 
+        box-shadow: inset 0 0 5px #000000;
         background-color: var(--main-color);
         filter: invert(5%) hue-rotate(0.25turn);
 
@@ -27,37 +65,25 @@
         flex-direction: row;
         justify-content: space-between;
 
-        form {
-            width: 420px;
-
+        .login-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
             a {
-                mix-blend-mode: difference;
-                filter: hue-rotate(0.10turn);
                 text-decoration: none;
-                color: $color-grey-2;
-                transition: filter 0.3s ease-in-out;
-
-                &:hover {
-                    filter: hue-rotate(0.80turn) brightness(70%);
-                }
-            }
-
-            input {
-                margin-right: 5px;
-            }
-
-            button {
-                margin-right: 5px;
-                border: none;
-                background-color: $color-grey-5;
+                color: $color-grey-4;
                 mix-blend-mode: difference;
-                height: 25px;
-                transition: color 0.3s ease-in-out;
-                color: $color-grey-1;
-
+                align-self: center;
+                margin-right: 5px;
+                &.button{
+                    color: #000;
+                    height: 25px;
+                    padding: 5px;
+                    background-color: $color-grey-4;
+                    border-radius: 2px;
+                    
+                }
                 &:hover {
-                    color: $color-grey-1;
-                    background-color: var($color-grey-3);
                     filter: hue-rotate(0.80turn) brightness(70%);
                 }
             }
@@ -83,14 +109,14 @@
                     text-align: center;
                     text-decoration: none;
 
-                    color: $color-grey-3;
+                    color: $color-grey-1;
                     mix-blend-mode: difference;
 
                     transition: font-size 0.3s ease-in-out;
 
                     &:hover {
                         font-size: 1.1em;
-                        color: $color-grey-1;
+                        color: $color-grey-3;
                         mix-blend-mode: difference;
                     }
                 }

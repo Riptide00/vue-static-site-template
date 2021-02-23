@@ -2,9 +2,11 @@
     <header>
         <a href="/home">
             <h1> Company name </h1>
-            <div class="mask"></div>
-            <div class="border"></div>
-            <p>An inspiring tagline</p>
+            <div class="tagline">
+                <div class="border"></div>
+                <div class="mask"></div>
+                <p>An inspiring tagline</p>
+            </div>
         </a>
     </header>
 </template>
@@ -22,49 +24,75 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            width: 500px;
+            width: 100%;
+            max-width: 500px;
         }
 
         h1 {
             color: $color-grey-3;
             mix-blend-mode: difference;
-            text-align: center;
-            width: auto;
             font-size: 3em;
-            padding: 20px;
             font-family: 'Monoton', cursive;
-            width: 499px;
+            text-align: center;
         }
 
+        .tagline {
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+
         p {
+            margin-top: -9px;
+            position: absolute;
             font-family: 'Playfair Display', serif;
             color: $color-grey-4;
             mix-blend-mode: difference;
-            width: 200px;
-            height: 30px;
-            margin-top: -25px;
-            text-align: center;
-            align-self: center;
             z-index: 3;
         }
 
         .mask {
-            margin-top: -15px;
+            position: absolute;
             background-color: var(--main-color);
             height: 30px;
             width: 150px;
-            align-self: center;
             z-index: 2;
         }
 
         .border {
+            position: absolute;
             height: 2px;
             width: 350px;
-            background-color: $color-grey-3;
+            background-color: $color-grey-4;
             mix-blend-mode: difference;
             border-radius: 100px;
             margin: auto;
-            margin-top: -11px;
+            margin-top: -7px;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        header {
+            height: 100px;
+            h1 {
+                font-size: 2em;
+            }
+
+            .border {
+                width: 250px;  
+                margin-top: -20px;
+            }
+
+            .mask {
+                margin-top: -20px;
+            }
+
+            p {
+                margin-top: -23px;
+            }
         }
     }
 </style>
